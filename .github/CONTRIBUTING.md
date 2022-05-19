@@ -35,7 +35,7 @@ started?](#what-should-i-know-before-i-get-started)
 Helpful resources
 
   * [OpenZFS Documentation](https://openzfs.github.io/openzfs-docs/)
-  * [OpenZFS Developer Resources](http://open-zfs.org/wiki/Developer_resources)
+  * [OpenZFS Developer Resources](https://openzfs.org/wiki/Developer_resources)
   * [Git and GitHub for beginners](https://openzfs.github.io/openzfs-docs/Developer%20Resources/Git%20and%20GitHub%20for%20beginners.html)
 
 ## What should I know before I get started?
@@ -126,7 +126,7 @@ feature needed?  What problem does it solve?
 
 #### General
 
-* All pull requests, except backports and releases, must be based on the current master branch 
+* All pull requests, except backports and releases, must be based on the current master branch
 and should apply without conflicts.
 * Please attempt to limit pull requests to a single commit which resolves
 one specific issue.
@@ -187,7 +187,7 @@ OpenZFS uses a standardised branching structure.
 - Release branches: `zfs-$VERSION-release`
 - Staging branches: `zfs-$VERSION-staging`
 
-`$VERSION` should be replaced with the `major.minor` version number.  
+`$VERSION` should be replaced with the `major.minor` version number.
 _(This is the version number without the `.patch` version at the end)_
 
 ### Coding Conventions
